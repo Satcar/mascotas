@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <h1 id="titleTxt">Selecciona tu mascota</h1>
+
+    <select name="animalSelector" id="animalSelector" onchange="changeAnimal()">
+        <option value="">--Selecciona un animal--</option>
+        <option value="dog">Perro</option>
+        <option value="cat">Gato</option>
+        <option value="duck">Canario</option>
+    </select>
+
+    <div class="imgBox">
+        <img id="closedDoor" src="img/cDr.png" alt="closed door" width="400px">
+        <img id="openedDoor" src="img/oDr.png" alt="opened door" width="400px">
+        <img id="dog" class="animal" src="img/dog.png" alt="dog" width="200px">
+        <img id="cat" class="animal" src="img/cat.png" alt="cat" width="200px">
+        <img id="duck" class="animal" src="img/duck.png" alt="duck" width="200px">
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
