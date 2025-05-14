@@ -30,7 +30,7 @@ const changeAnimal = () => {
         canary.style.display = 'inline';
         break;
       default:
-        titleTxt.innerText = 'Elige un animal';
+        titleTxt.innerText = 'Selecciona a tu mascota';
         closedDoor.style.display = 'inline';
         break;
     }
