@@ -1,18 +1,13 @@
 .imgBox {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin-top: 1rem;
+    position: absolute;
   }
   
   .imgBox img {
     position: absolute;
-    top: 0;
-    left: 0;
   }
   
-  
-.animal {
-    top: 1050px;
-    left: 1050px;
-}
+  .animal {
+    top: 150px;
+    left: 80px;
+    z-index: 10;
+  }
